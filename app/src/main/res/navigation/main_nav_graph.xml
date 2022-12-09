@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.said.oubella.so.essaouiratour.ui.HomeFragment"
+        android:label="@string/app_name">
+
+        <action
+            android:id="@+id/action_homeFragment_to_activitiesFragment"
+            app:destination="@id/activitiesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_eventsFragment"
+            app:destination="@id/eventsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_hotelsFragment"
+            app:destination="@id/hotelsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_placesFragment"
+            app:destination="@id/placesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_restaurantsFragment"
+            app:destination="@id/restaurantsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/activitiesFragment"
+        android:name="com.said.oubella.so.essaouiratour.ui.ActivitiesFragment"
+        android:label="@string/activities_label" />
+
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.said.oubella.so.essaouiratour.ui.EventsFragment"
+        android:label="@string/events_label" />
+
+    <fragment
+        android:id="@+id/hotelsFragment"
+        android:name="com.said.oubella.so.essaouiratour.ui.HotelsFragment"
+        android:label="@string/hotels_label" />
+
+    <fragment
+        android:id="@+id/placesFragment"
+        android:name="com.said.oubella.so.essaouiratour.ui.PlacesFragment"
+        android:label="@string/places_label" />
+
+    <fragment
+        android:id="@+id/restaurantsFragment"
+        android:name="com.said.oubella.so.essaouiratour.ui.RestaurantsFragment"
+        android:label="@string/restaurants_label" />
+
+</navigation>

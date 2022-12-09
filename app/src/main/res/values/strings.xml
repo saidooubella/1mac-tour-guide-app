@@ -1,0 +1,154 @@
+<resources>
+
+    <string name="app_name">Essaouira Tour</string>
+
+    <string name="introduction_label">Introduction :</string>
+    <string name="explore_more_label">Explore more :</string>
+
+    <string name="home_label">Home</string>
+    <string name="events_label">Events</string>
+    <string name="activities_label">Activities</string>
+    <string name="places_label">Places</string>
+    <string name="hotels_label">Hotels</string>
+    <string name="restaurants_label">Restaurants</string>
+
+    <string name="address_title">Address :</string>
+    <string name="tripadvisor_rating_title">Tripadvisor rating :</string>
+    <string name="property_amenities_title">Property amenities :</string>
+    <string name="room_features_title">Room features :</string>
+    <string name="room_types_title">Room types :</string>
+    <string name="open_tripadvisor_title">Open Tripadvisor</string>
+    <string name="opening_time_title">Opening time :</string>
+    <string name="price_title">Price :</string>
+    <string name="price_range_title">Price range :</string>
+    <string name="cuisines_title">Cuisines :</string>
+    <string name="meals_title">Meals :</string>
+    <string name="features_title">Features :</string>
+
+    <string name="open_tripadvisor_label">Open Tripadvisor</string>
+    <string name="open_in_maps_label">Open in maps</string>
+
+    <string name="tripadvisor_rating">%.1f ⭐</string>
+
+    <string name="introduction_description">Essaouira or Mogador is a city in the western Moroccan region of Marrakech-Asfi, on the Atlantic coast. It is famous with it\'s cold weather and fresh fish. In the Berber language, which is spoken by a sizeable proportion of the city\'s inhabitats, it called \'Tassort\', meaning \'the small fortress\'. Essaouira is a UNESCO World Heritage listed city.</string>
+
+    <!-- App Data - Begin -->
+
+    <string name="horse_riding_title">Horse Riding</string>
+    <string name="horse_riding_description">Your horseback ride will be shared between the beach of Essaouira, and also the dunes and the forest. It\'s a fantastic experience with gentle and well-trained horses. All levels are welcome as the guide will adapt to your riding experience. Helmets are provided but please wear long trousers and trainers for your comfort during the ride.</string>
+
+    <string name="camel_riding_title">Camel Riding</string>
+    <string name="camel_riding_description">Enjoy a camel ride on the beach of Essaouira, and visit the dunes and the forest, too. It\'s a great adventure for the all family, with gentle and well-trained animals.</string>
+
+    <string name="quad_biking_title">Quad Biking</string>
+    <string name="quad_biking_description">Avoid the crowds and get out into the stunning desert landscapes of the Essaouira region on this private quad bike tour. In the company of just your party and a guide, you can navigate the sand dunes at your own pace.</string>
+
+    <string name="surfing_title">Surf, KiteSurf, WindSurf or SUP</string>
+    <string name="surfing_description">There are numerous spots in and around Essaouira to suit all level of surfers. The bay is curved and protected by the island in front. This makes the waves smaller and slower so perfect to give beginners the time to pop to their feet and build their confidence. There is then the Intermediate spot to the left of our centre and on second beach which is a short walk away or we can blast you there by quad or on our boat. Here the waves are bigger and faster breaking both left and right. For advanced surfers you have the reef break at La Grotte (The Cave) and The Courant which is 15 – 20 minutes away.</string>
+
+    <string name="fest_gnaoua_title"><![CDATA[Festival Gnaoua & World Music]]></string>
+    <string name="fest_gnaoua_description">Ever since its inception, the Festival has been keen on making this event part and parcel of Essaouira, highlighting the authenticity and unique charm of the city. In total, more than 20 places in the medina have hosted concerts: The Grain Market, Sqala, Zaouia, riads or open-air stages… But the festival is essentially about this magic atmosphere whereby in the streets of the city festival-goers casually come across musicians, journalists, genuine Souiris or attending prominent figures, and where at every street corner music resounds and the breath of the Festival rustles.</string>
+
+    <string name="moga_fest_title">MOGA Festival</string>
+    <string name="moga_fest_description">Over a weekend, the moga tribe festival-goers globe-trotters, coming from all horizons, has made an appointment in the City of Wind, to dance to the rhythms of hedonistic electronic music, call the “desert house” or “hippie house”, MOGA gave pride of place to this emerging trend mixing oriental and exotic sounds will the deep and hypnotic tempo of the club music. We look forward to seeing you again in 2021. Here, stay tuned. We are preparing you full of nice surprises.</string>
+
+    <string name="andalusia_fest_title">Festival of Atlantic Andalusia Essaouira</string>
+    <string name="andalusia_fest_description">Created in 2003 by the Essaouira Mogador Association, this festival is part of the dynamic of national and international meetings born around the two other festivals, Gnaoua and World Music and the Musical Spring of the Trade Winds. It enriches the cultural and musical identity of the city of Essaouira.\n\nOnce again, aficionados of Judeo-Arab-Andalusian music will gather in Essaouira, to share pure musical and human moments during a festival embodying the blending and richness of Morocco\'s cultural heritage, reviving peace and fraternity between religious and artistic legacies unique in the world.</string>
+
+    <string name="photo_nights_title">Photographic Nights</string>
+    <string name="photo_nights_description">The International Festival of Photographic Nights of Essaouira has as its main philosophy the sharing of experience through meetings of different forms: exhibitions of works, lectures, portfolio readings, conversations, which are mainly directed towards photographers.</string>
+
+    <string name="scala_port_title">The Port Scala</string>
+    <string name="scala_port_description">In 1766 , Sultan Sidi Mohammad ben Abdallah (Mohammed III) engaged Théodore Cornut, a French architect, to design the new city. He worked three years on constructing the Scala of the port and the Scala of the Kasbah. The sultan then let the english architect Ahmed el Aalj fulfill the project.\n\nThe harbour entrance, with the \"Porte de la Marine\", was built by an English renegade by the name of Ahmed el Inglizi (\"Ahmed the English\"), or Ahmed El Alj (\"Ahmed the Renegade\"). The two \"scalas\" with their fortifications (the Scala of the Port and the Kasbah Scala) were built by Genoese engineers.\n\nThere are Bronze artillery guns brought from Spain, Portugal and the Netherlands. Inscriptions says that the bronze to fabric the guns came from Mexico and Peru. Most of the guns were made in Sevilla and Barcelona between 1743 1782.</string>
+    <string name="scala_port_opening_time">From 9 AM - 5 PM</string>
+    <string name="scala_port_price"><![CDATA[MAD 10 & Free at Friday]]></string>
+    <string name="scala_port_address">The Essaouira Port</string>
+
+    <string name="port_title">The Port</string>
+    <string name="port_description">It is said that the port of Essaouira was founded by the Sultan Sidi Mohammed Ben Abdellah to punish the city of Agadir, where rebellions against the leading power took place.\nSoon after its foundation 1770 until the first half of the nineteenth century, the port was the most important trading port between Europe, Africa and the Americas. Mogador is the old port of Morocco but when Casablanca grew up to the North and Agadir to the South, it lost its status.\nThe port has been enlarged several times since then.</string>
+    <string name="port_opening_time">Open 24 hours the whole week</string>
+    <string name="port_price">Free</string>
+    <string name="port_address">The Essaouira Port</string>
+
+    <string name="museum_title">Sidi Mohammed ben Abdallah Museum</string>
+    <string name="museum_description"><![CDATA[Artifacts of area history, including pottery, carpets & jewelry displayed in an 1800s mansion.]]></string>
+    <string name="museum_opening_time">From 9 AM until 9 PM</string>
+    <string name="museum_price">MAD 70</string>
+    <string name="museum_address">161 Avenue Mohamed Zafzaf, Essaouira 44000</string>
+
+    <string name="dar_souiri_title">Dar Souiri</string>
+    <string name="dar_souiri_description">Dar Souiri is a historic building. It was built as a riad in 1907 inside the Medina. It became the administrative office of the Provincial Authority under the French Protectorate. Currently it is the headquarter of the Essaouira-Mogador Association. It is a cultural space for the city. It strives to contribute towards the socio-economic renewal of the city. It is a beautiful building with a wide courtyard.</string>
+    <string name="dar_souiri_opening">Temporarily closed</string>
+    <string name="dar_souiri_price">Free except for paid events</string>
+    <string name="dar_souiri_address">Association Essaouira Mogador، 10, avenue Caire, Dar Souiri.، Essaouira 44000</string>
+
+    <string name="coupole_title">La Coupole Essaouira beach</string>
+    <string name="coupole_description"><![CDATA[An arty and eco-friendly beachfront restaurant with a view of Mogador island. Haute cuisine, seafood, tapas, detox, draught beers, local wine, cocktails & more. Our place is 5 minute walk from the medina and offers a sunny terrace, a restaurant area, a contemporary bar, and two cocooning sofas with a cosy atmosphere all overlooking the beach and the port of Essaouira. We are open everyday from 9 a.m. to 11 p.m. It was refurbished and transformed with a tropical decoration in 2018/2019.]]></string>
+    <string name="coupole_tripadvisor_link">https://www.tripadvisor.com/Restaurant_Review-g298349-d10150196-Reviews-La_Coupole_Essaouira_beach-Essaouira_Marrakech_Safi.html</string>
+    <string name="coupole_cuisines">Mediterranean, Fusion.</string>
+    <string name="coupole_features">Reservations, Outdoor Seating, Seating, Street Parking, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Accepts Mastercard, Accepts Visa, Free Wifi, Accepts Credit Cards, Table Service, Wine and Beer, Digital Payments.</string>
+    <string name="coupole_meals">Lunch, Dinner, Late Night, Drinks.</string>
+    <string name="coupole_price_range">MAD 87 - MAD 174.</string>
+    <string name="coupole_address">50 Avenue Mohammed V, Essaouira 44000 Morocco.</string>
+
+    <string name="seafood_corner_title">Seafood corner</string>
+    <string name="seafood_corner_tripadvidor_link">https://www.tripadvisor.com/Restaurant_Review-g298349-d15805013-Reviews-Seafood_corner-Essaouira_Marrakech_Safi.html</string>
+    <string name="seafood_corner_cuisines">Seafood, International, Mediterranean, Fusion.</string>
+    <string name="seafood_corner_features">Reservations, Seating, Wheelchair Accessible, Free Wifi, Accepts Credit Cards, Table Service, Digital Payments, Family style.</string>
+    <string name="seafood_corner_meals">Lunch, Dinner, Late Night, Drinks.</string>
+    <string name="seafood_corner_price_range">MAD 33 - MAD 98</string>
+    <string name="seafood_corner_address">07 Avenue Abdellah Chefchaouni Horloge Palace, Essaouira Morocco 44000</string>
+
+    <string name="mactoob_title">Mactoob</string>
+    <string name="mactoob_description">burger house, Fresh salad, sweet and juice If you are reading this you are on the right track to a good authentic burger. All our burgers, salads, chips and sauces are homemade using fresh quality ingredients. Our medley of desserts will delight the taste buds of both adults and children. Open daily except Monday from 12–3pm and from 7–11pm.</string>
+    <string name="mactoob_tripadvisor_link">https://www.tripadvisor.com/Restaurant_Review-g298349-d12327727-Reviews-Mactoob-Essaouira_Marrakech_Safi.html</string>
+    <string name="mactoob_cuisines">American, Fast Food.</string>
+    <string name="mactoob_features">Takeout, Reservations, Seating, Free Wifi, Accepts Credit Cards, Table Service.</string>
+    <string name="mactoob_meals">Lunch, Dinner, Late Night.</string>
+    <string name="mactoob_price_range">MAD 54 - MAD 109.</string>
+    <string name="mactoob_address">22 Avenue Seqala, Essaouira Morocco 44000</string>
+
+    <string name="bistro_title">BistrO Essaouira</string>
+    <string name="bistro_description">A new funky chic bistrO in the heart of essaouira . Come find us in Place Traa near the old Jewish quarter.</string>
+    <string name="bistro_tripadvisor_link">https://www.tripadvisor.com/Restaurant_Review-g298349-d12869578-Reviews-BistrO_Essaouira-Essaouira_Marrakech_Safi.html</string>
+    <string name="bistro_cuisines">International, Mediterranean, European, Moroccan.</string>
+    <string name="bistro_features">Reservations, Seating, Wheelchair Accessible, Free Wifi, Table Service.</string>
+    <string name="bistro_meals">Lunch, Dinner, Brunch.</string>
+    <string name="bistro_price_range">MAD 45 - MAD 110.</string>
+    <string name="bistro_address">66 Avenue Boutouil, Essaouira Morocco 44000</string>
+
+    <string name="dar_maya_title">Dar Maya</string>
+    <string name="dar_maya_description">Dar Maya is a luxury boutique hotel, offering five rooms, a spa and rooftop hot tub in a chic, tranquil riad in the heart of Essaouira\'s historic medina. Having successfully blended a mix of understated Moroccan and contemporary European styles, Dar Maya oozes elegance, subtlety and intimacy. Our aim is to make your stay at Dar Maya as enjoyable as possible, and we offer an impeccable level of service that only a small luxury hotel can provide.With stunning ocean views from the terrace, the hotel is a few minutes walk to all the main attractions and amenities including the bustling cafes and restaurants, souks, port and beach.</string>
+    <string name="dar_maya_tripadvisor_link">https://www.tripadvisor.com/Hotel_Review-g298349-d3746466-Reviews-Dar_Maya-Essaouira_Marrakech_Safi.html</string>
+    <string name="dar_maya_prop_amenities">Free High Speed Internet (WiFi), Hot tub, Free breakfast, Airport transportation, Spa, Rooftop terrace, Concierge, Laundry service.</string>
+    <string name="dar_maya_features">Bathrobes, Air conditioning, Fireplace, Private balcony, Room service, Safe, Bath / shower, Complimentary toiletries.</string>
+    <string name="dar_maya_room_types">Non-smoking rooms, Suites, Family rooms.</string>
+    <string name="dar_maya_address">33 Avenue Oujda, Essaouira Morocco 44000</string>
+
+    <string name="riad_saltana_title">Riad Saltana</string>
+    <string name="riad_saltana_description">In the old medina of Essaouira (Mogador), close to the ramparts, port, beach and souks, discover the charm of a riad with fresh and soft colors, with the one of the most beautiful terraces with panoramic ocean view. Geraldine gets you in this riad entirely refurbished in May 2015 according to European quality standards, great location for those who want to reside quietly in the heart of the city. The riad is a charming old house, with double and triple rooms. You can also enjoy another terrace sheltered from the wind on an intermediate floor. You will find the architecture of traditional Moroccan houses in Moorish style but also all the comfort for a nice stay. All rooms have a private bathroom. You can enjoy your breakfast or meals on either of the two terraces. Free WIFI on the rooms. The area : In the direction of Skala by Laalouj street, take Touahen street on the right before the ramparts. Saltana Riad is at the end of this street, near the small grocery store.</string>
+    <string name="riad_saltana_tripadvisor_link">https://www.tripadvisor.com/Hotel_Review-g298349-d3164865-Reviews-Riad_Saltana-Essaouira_Marrakech_Safi.html</string>
+    <string name="riad_saltana_prop_amenities">Paid public parking on-site, Free internet, Free breakfast, Bicycle rental, Canoeing, Airport transportation, Massage, Rooftop terrace.</string>
+    <string name="riad_saltana_room_features">Housekeeping, Safe, Bottled water, Complimentary toiletries, Hair dryer.</string>
+    <string name="riad_saltana_room_types">Non-smoking rooms, Family rooms.</string>
+    <string name="riad_saltana_address">3 Avenue Sidi Ali Ben Daoud, Essaouira Morocco 44000</string>
+
+    <string name="grande_large_title">Riad Le Grand Large</string>
+    <string name="grande_large_description">Boasting a superb view over the medina and situated in the heart of Essaouira\'s historic centre, this enchanting guest house is set around a luminous patio, which leads to a Moroccan living room.Built around the communal patio, lined with plants, the 10 sober and elegant rooms, furnished in moucharabieh, sabred, and wrought iron, are fully equipped with a private bathroom and feature typical Moroccan decors.</string>
+    <string name="grande_large_tripadvisor_link">https://www.tripadvisor.com/Hotel_Review-g298349-d590128-Reviews-Riad_Le_Grand_Large-Essaouira_Marrakech_Safi.html</string>
+    <string name="grande_large_prop_amenities">Free High Speed Internet (WiFi), Free breakfast, Bicycle rental, Hiking, Car hire, Hammam, Rooftop terrace, Baggage storage, Wifi, Horseback riding, Windsurfing, Fishing, Massage, Solarium, Non-smoking hotel, Shared lounge / TV area, Sun terrace, Express check-in / check-out.</string>
+    <string name="grande_large_room_features">Housekeeping.</string>
+    <string name="grande_large_room_types">Non-smoking rooms, Family rooms.</string>
+    <string name="grande_large_address">2 Rue Oum Rabia, Essaouira 44000 Morocco</string>
+
+    <string name="chems_bleu_title">Riad Chems Bleu</string>
+    <string name="chems_bleu_description">See why so many travelers make Riad Chems Bleu their guest house of choice when visiting Essaouira. Providing an ideal mix of value, comfort and convenience, it offers a family-friendly setting with an array of amenities designed for travelers like you.\n\nThe guest house features a rooftop terrace and a sun terrace, and you can stay connected during your stay as Riad Chems Bleu offers guests free wifi. Plus, Riad Chems Bleu offers free breakfast, providing a pleasant respite from your busy day. For guests with a vehicle, there is paid public parking available nearby.\n\nWhile staying at Riad Chems Bleu, visitors can check out Dar Souiri (0.3 mi) and Chaim Pinto Synagogue (0.3 mi), some of Essaouira\'s top attractions.\n\nWhile you’re here, be sure to check out some of the Italian restaurants, including Gusto Italia, Vagues Bleues, and Ocean Vagabond, all of which are a short distance from Riad Chems Bleu.\n\nIf you’re looking for things to do, you can check out Essaouira Ramparts (0.4 mi), which is a popular attraction amongst tourists, and it is within walking distance.\n\nWe’re sure you’ll enjoy your stay at Riad Chems Bleu as you experience all of the things Essaouira has to offer.</string>
+    <string name="chems_bleu_tripadvisor_link">https://www.tripadvisor.com/Hotel_Review-g298349-d1070072-Reviews-Riad_Chems_Bleu-Essaouira_Marrakech_Safi.html</string>
+    <string name="chems_bleu_prop_amenities">Paid public parking nearby, Free High Speed Internet (WiFi), Free breakfast, Babysitting, Pets Allowed ( Dog / Pet Friendly ), Airport transportation, Massage, Rooftop terrace, Wifi, Breakfast in the room, Car hire, Solarium, Outdoor furniture, Sun terrace, Dry cleaning, Laundry service.</string>
+    <string name="chems_bleu_room_features">Bath / shower, Hair dryer.</string>
+    <string name="chems_bleu_room_types">Ocean view, Non-smoking rooms, Family rooms.</string>
+    <string name="chems_bleu_address">Rue d\'Agadir 14 - impasse Moulay Azzouz Medina, Essaouira 44000 Morocco</string>
+
+    <!-- App Data - End -->
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home_label" />
+
+    <item
+        android:id="@+id/eventsFragment"
+        android:icon="@drawable/ic_event"
+        android:title="@string/events_label" />
+
+    <item
+        android:id="@+id/activitiesFragment"
+        android:icon="@drawable/ic_activity"
+        android:title="@string/activities_label" />
+
+    <item
+        android:id="@+id/placesFragment"
+        android:icon="@drawable/ic_location"
+        android:title="@string/places_label" />
+
+    <item
+        android:id="@+id/hotelsFragment"
+        android:icon="@drawable/ic_hotel"
+        android:title="@string/hotels_label" />
+
+    <item
+        android:id="@+id/restaurantsFragment"
+        android:icon="@drawable/ic_restaurant"
+        android:title="@string/restaurants_label" />
+
+</menu>

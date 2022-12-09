@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.HomeFragment">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/introduction_card_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:contentPadding="@dimen/small_spacing"
+            app:layout_constraintBottom_toTopOf="@id/introduction_card_description"
+            app:layout_constraintEnd_toEndOf="@id/end"
+            app:layout_constraintStart_toStartOf="@id/start"
+            app:layout_constraintTop_toTopOf="@id/top"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintVertical_chainStyle="packed">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/introduction_label" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/introduction_card_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_spacing"
+            app:contentPadding="@dimen/small_spacing"
+            app:layout_constraintBottom_toTopOf="@id/learn_more_card_label"
+            app:layout_constraintEnd_toEndOf="@id/end"
+            app:layout_constraintStart_toStartOf="@id/start"
+            app:layout_constraintTop_toBottomOf="@id/introduction_card_label"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintVertical_chainStyle="packed">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/introduction_description"
+                android:textColor="?colorOnBackground"
+                android:textSize="@dimen/description_size" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/learn_more_card_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_spacing"
+            app:contentPadding="@dimen/small_spacing"
+            app:layout_constraintBottom_toTopOf="@id/learn_more_card_content"
+            app:layout_constraintEnd_toEndOf="@id/end"
+            app:layout_constraintStart_toStartOf="@id/start"
+            app:layout_constraintTop_toBottomOf="@id/introduction_card_description">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/introduction_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/explore_more_label" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/learn_more_card_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_spacing"
+            app:contentPadding="@dimen/small_spacing"
+            app:layout_constraintBottom_toBottomOf="@id/bottom"
+            app:layout_constraintEnd_toEndOf="@id/end"
+            app:layout_constraintStart_toStartOf="@id/start"
+            app:layout_constraintTop_toBottomOf="@id/learn_more_card_label">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/events_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    tools:ignore="MissingConstraints">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@color/circle_background_1"
+                        android:scaleType="centerInside"
+                        app:shapeAppearanceOverlay="@style/AppTheme.CircleShapeAppearance"
+                        app:srcCompat="@drawable/ic_event" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/small_spacing"
+                        android:text="@string/events_label"
+                        android:textColor="?colorOnBackground"
+                        android:textSize="@dimen/label_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/activities_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    tools:ignore="MissingConstraints">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@color/circle_background_2"
+                        android:scaleType="centerInside"
+                        app:shapeAppearanceOverlay="@style/AppTheme.CircleShapeAppearance"
+                        app:srcCompat="@drawable/ic_activity" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/small_spacing"
+                        android:text="@string/activities_label"
+                        android:textColor="?colorOnBackground"
+                        android:textSize="@dimen/label_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/places_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    tools:ignore="MissingConstraints">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@color/circle_background_3"
+                        android:scaleType="centerInside"
+                        app:shapeAppearanceOverlay="@style/AppTheme.CircleShapeAppearance"
+                        app:srcCompat="@drawable/ic_location" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/small_spacing"
+                        android:text="@string/places_label"
+                        android:textColor="?colorOnBackground"
+                        android:textSize="@dimen/label_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hotels_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    tools:ignore="MissingConstraints">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@color/circle_background_4"
+                        android:scaleType="centerInside"
+                        app:shapeAppearanceOverlay="@style/AppTheme.CircleShapeAppearance"
+                        app:srcCompat="@drawable/ic_hotel" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/small_spacing"
+                        android:text="@string/hotels_label"
+                        android:textColor="?colorOnBackground"
+                        android:textSize="@dimen/label_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/restaurants_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    tools:ignore="MissingConstraints">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@color/circle_background_5"
+                        android:scaleType="centerInside"
+                        app:shapeAppearanceOverlay="@style/AppTheme.CircleShapeAppearance"
+                        app:srcCompat="@drawable/ic_restaurant" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/small_spacing"
+                        android:text="@string/restaurants_label"
+                        android:textColor="?colorOnBackground"
+                        android:textSize="@dimen/label_size" />
+
+                </LinearLayout>
+
+                <androidx.constraintlayout.helper.widget.Flow
+                    android:id="@+id/flow"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:constraint_referenced_ids="events_button,activities_button,places_button,hotels_button,restaurants_button"
+                    app:flow_horizontalGap="8dp"
+                    app:flow_maxElementsWrap="@integer/flow_max_elements_wrap"
+                    app:flow_verticalAlign="center"
+                    app:flow_verticalGap="8dp"
+                    app:flow_wrapMode="chain"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <include layout="@layout/screen_edges" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
